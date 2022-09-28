@@ -1,9 +1,9 @@
+
 #include<bits/stdc++.h>
 using namespace std;
 class Circle{
 private:
     float r;
-
 public:
     void setdata(float x)
     {
@@ -18,10 +18,8 @@ public:
        cout<<"Perimeter: "<<2*3.1416*r<<endl;
     }
 };
-
 int main()
 {
-
     Circle c1;
     float a;
     cout<<"Enter Radius: ";
